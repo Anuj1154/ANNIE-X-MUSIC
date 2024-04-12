@@ -41,14 +41,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/doraemon890/ANNIE-X-MUSIC",
+    "https://github.com/Anuj1154/ANNIE-X-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CDX_WORLD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/fellings_monster")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BWANDARLOK")
 
 
@@ -133,13 +133,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/fdbffdb39d20374823466.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/f9a3c969f6f2419b67a83.png"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/5f15712a84154fefd0e5b.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/f9a3c969f6f2419b67a83.png"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/facec75902f1b6b361a8b.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/cd205021bf40f44ad78e4.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/22689e112d9779661fac1.png"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/51600957eaaf96ad308c7.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/782e4c83729ea24ab4d3d.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/f85e89871eb80c91f8a87.jpg"
